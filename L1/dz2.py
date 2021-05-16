@@ -14,6 +14,7 @@ for x in result:
     if sum_of_numb % 7 == 0:
         all_sum += c
 print(all_sum)
+all_sum = 0
 for x in range(0, len(result)):
     result[x] += 17
 for x in result:
